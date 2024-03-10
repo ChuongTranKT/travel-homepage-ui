@@ -10,7 +10,7 @@ import { Pagination } from 'swiper/modules'
 
 const CartTestimonials = () => {
   return (
-    <div className="flex h-[500px] w-full flex-col items-center justify-center gap-16 px-4">
+    <div className="flex h-[570px] w-full flex-col items-center justify-center gap-16 px-4">
       <div>
         <Image src={'/testimonials-avatar.svg'} alt="avatar" width={128} height={128}></Image>
       </div>
