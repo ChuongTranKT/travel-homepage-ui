@@ -1,0 +1,50 @@
+/* swiper service custom */
+
+.swiper__service{
+    margin-inline: initial;
+    /* border:1px solid red; */
+    max-width: 1050px;
+  }
+
+  .swipper__slider__service{
+    margin: 0 auto;
+    width: 320px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  @media screen and (min-width:320px) {
+    .swiper__service{
+        width: 100% !important;
+      }
+      .swipper__slider__service{
+        width: 100% !important;
+      }
+  }
+
+  @media screen and (min-width:768px){
+    .swiper__service{
+        width: 100% !important;
+      }
+      .swipper__slider__service{
+        width: 280px !important;
+      }
+  }
+
+  @media screen and (min-width:1024px){
+    .swiper__service{
+        width: 100% !important;
+      }
+      .swipper__slider__service{
+        width: 350px !important;
+      }
+  }
+
+/* swiper destination custom */
+.swiper__destination{
+    margin-inline: initial;
+    /* border:1px solid red; */
+    max-width: 1404px;
+  }
+
